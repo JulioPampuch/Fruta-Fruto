@@ -1,0 +1,49 @@
+.sobre{
+    text-align: center;
+}
+
+.sobre__titulo{
+    font-family: Pacifico, cursive;
+    color: rgb(159, 46, 46);
+}
+
+.sobre__descricao{
+    color: rgb(87, 87, 87);
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre{
+        padding: 2.5rem
+    }
+}
+
+@media screen and (min-width: 0){
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre__titulo{
+    font-size: 3.25rem;
+    }
+}
+
+@media screen and (min-width: 0){
+    .sobre__descricao{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre__descricao{
+        font-size: 1.75rem;
+}
+}

@@ -1,0 +1,48 @@
+.banner{
+    background-image: url('../../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#banner__img{
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+.banner__titulo{
+    color: rgb(245, 245, 245);
+    font-family: Pacifico, cursive;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 4px 4px rgb(45, 45, 45);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width: 0){
+    #banner__img{
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px){
+    #banner__img{
+        height: calc(100vh - 72px);
+    }
+}
+
+@media screen and (min-width: 0){
+    .banner__titulo{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner__titulo{
+        font-size: 5.05rem;
+    }
+}

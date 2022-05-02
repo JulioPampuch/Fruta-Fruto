@@ -1,0 +1,26 @@
+.menu__item {
+    list-style: none;
+}
+
+.menu__item:last-child a{
+    margin-right: 0;
+}
+
+.menu__item a {
+    color: #808080;
+    text-transform: lowercase;
+    text-decoration: none;
+    margin-right: 1.25rem;
+}
+
+.menu__item a.ativo{
+    color: black;
+    font-weight: bold;
+}
+.menu__item a:hover {
+    text-decoration: underline;
+}
+
+.menu-lista {
+    display: flex;
+}

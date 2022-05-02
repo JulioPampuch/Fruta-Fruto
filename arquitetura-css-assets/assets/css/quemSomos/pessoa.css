@@ -1,0 +1,70 @@
+.pessoas{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoa__nome{
+    color: rgb(125, 32, 32);
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 1rem 0;
+}
+
+.pessoa__funcao{
+    color: #808080;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+
+.pessoa__imagem{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+
+.pessoa__imagem--roberta{
+    background-image: url('../../img/pessoas/roberta.jpg');
+}
+
+.pessoa__imagem--marcela{
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+
+.pessoa__imagem--andreia{
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
+
+@media screen and (min-width: 0){
+    .pessoas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .pessoas{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 0){
+    .pessoa{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .pessoa{
+        margin-bottom: 0;
+    }
+}
